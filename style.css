@@ -1,5 +1,10 @@
 
 
+.nav-item{
+    
+    font-weight: 600;
+    color: gray;
+}
 .container{
     margin-bottom: 100px;
 }
@@ -32,4 +37,27 @@
 }
 .text-center{
     text-align: center !important; 
+}
+
+.box1{
+    height: 250px;
+    width: 250px;
+    box-shadow: 2px 2px 30px rgb(185,184,184);
+    margin: 15px;
+    border-radius: 15px 0;
+
+}
+
+.half-width{
+    width:50%;
+    display: flex;
+    gap: 5px;
+}
+
+.categories{
+    display: flex;
+}
+
+.style{
+    margin-top: 15px;
 }
